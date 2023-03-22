@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    
+    background-color: #026873;
+}
+
+main{
+    background-color: white;
+    width: 1300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+h1{
+    text-align: center;
+    background-color: #03A64A;
+    border-radius: 10px;
+}
+h2{
+    color: #03A64A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div_master{
+    padding: 10px 10px;
+    
+}
+
+.div_filha {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    width: 200px;
+    height: 170px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px black;
+    text-align: center;
+}
+
+div:hover{
+    background-color: lightgray;
+}
+
+a{
+    text-decoration: none;
+    color: #03A64A;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
