@@ -8,11 +8,12 @@
 body{
     
     background-color: #026873;
+    height: 100vh;
 }
 
 main{
     background-color: white;
-    width: 1300px;
+    width: 100vw;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
@@ -29,25 +30,32 @@ h2{
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    width: 100%;
+    
+}
 .div_master{
     padding: 10px 10px;
-    
+    display: grid;
+    width: 95vw;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    align-items: center;
+    vertical-align: middle;
 }
 
 .div_filha {
-    display: inline-block;
+    
+    height: 250px;
+    padding-top: 30px;
+    box-shadow: 2px 2px 2px black;
+    min-width: 100px;
+    max-width: 1fr;
+    min-height: 100px;
+    max-height: 1fr;
     vertical-align: middle;
-    margin: 10px;
-    width: 200px;
-    height: 170px;
-    padding: 10px;
-    box-shadow: 10px 10px 15px black;
-    text-align: center;
 }
 
-div:hover{
-    background-color: lightgray;
-}
 
 a{
     text-decoration: none;
