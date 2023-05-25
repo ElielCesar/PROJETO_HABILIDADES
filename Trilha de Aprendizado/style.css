@@ -6,17 +6,19 @@
 }
 
 body{
-    
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
     background-color: #026873;
     height: 100vh;
 }
 
 main{
     background-color: white;
-    width: 100vw;
+    width: 90vw;
     margin: auto;
     padding: 10px;
-    border-radius: 10px;
     box-shadow: 5px 5px 15px black;
 }
 
@@ -24,6 +26,7 @@ h1{
     text-align: center;
     background-color: #03A64A;
     border-radius: 10px;
+    padding-bottom: 5px;
 }
 h2{
     color: #03A64A;
@@ -31,29 +34,26 @@ h2{
 }
 
 img {
-    width: 100%;
+    width: 180px;
+    height: auto;
     
 }
 .div_master{
-    padding: 10px 10px;
-    display: grid;
-    width: 95vw;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    align-items: center;
-    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+   
 }
 
 .div_filha {
-    
-    height: 250px;
-    padding-top: 30px;
-    box-shadow: 2px 2px 2px black;
-    min-width: 100px;
-    max-width: 1fr;
-    min-height: 100px;
-    max-height: 1fr;
-    vertical-align: middle;
+    width: 200px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.div_filha:hover{
+    box-shadow: 2px 2px 10px 5px black;
 }
 
 
