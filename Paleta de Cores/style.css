@@ -1,0 +1,43 @@
+
+*{
+    font-family: Helvetica;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 80vw;
+}
+
+div#div_btn{
+    margin-top: 50px;
+}
+
+div#novas_paletas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_color{
+    width: 200px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    transition: 0.2s;
+}
+
+.box_color:hover{
+    transform: scale(1.1);
+}
+
+div > p {
+    color: red;
+    margin-top: 105px;
+}
