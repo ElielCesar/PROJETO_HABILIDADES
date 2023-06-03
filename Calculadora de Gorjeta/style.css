@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: Helvetica;
+}
+
+.card{
+    background-color: white;
+    width: 40vw;
+    margin: auto;
+    margin-top: 60px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#valor_gorjeta, #valor_total{
+    text-align: right;
+}
