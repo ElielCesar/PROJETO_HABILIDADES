@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+/*
+background: #FFFFFF;
+background: #FFB800; // amarelo
+background: #FFFFFF;
+background: #C4C4C4; // cor box
+background: #252525; // cor container cinza
+
+font-family: Permanent Marker;
+font-size: 36px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+
+// texto em branco
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: 'Permanent Marker', cursive;
+font-family: 'Quicksand', sans-serif;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    background-color: #FFB800;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.bola{
+    background-color: #C4C4C4;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: auto;
+}
+
+#img_perfil{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.texto_pessoal{
+    margin: auto;
+    text-align: center;
+}
+
+.quadrado{
+    background-color:#C4C4C4;
+    margin-top: 40px;
+    width: 250px;
+    height: 350px;
+    margin-left: auto;
+    border-radius: 20px;
+
+}
+
+#img_perfil2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+div#container1{
+    height: 400px;
+}
+
+div#container2{
+    height: auto;
+    padding-bottom: 20px;
+    background-color: #252525;
+}
+
+div#container3{
+    height: auto;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+div#container4{
+    height: auto;
+    background-color: #252525;
+    padding-bottom: 20px;
+}
+
+div#container5{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+div#container6{
+    height: 150px;
+    background-color: #FFB800;
+}
+
+.card{
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #C4C4C4;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card_redes_sociais{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: black;
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.card_blog{
+    background-color: black;
+    height: 300px;
+    width: 230px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.title_card_blog{
+    color: #FFB800;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+}
+
+.text_card_blog{
+    color: white;
+    padding: 20px;
+    text-align: left;
+
+}
+
+
+.quadrado2{
+   
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    border-radius: 20px;
+
+}
+
+.font_permanent{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 36px;
+    color: #FFB800;
+}
+
+.font_poppins{
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .col-md-5 .img-responsiva {
+      display: block;
+      margin: 0 auto;
+    }
+  }
