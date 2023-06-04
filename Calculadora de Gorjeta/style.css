@@ -8,9 +8,38 @@ body{
 
 .card{
     background-color: white;
-    width: 40vw;
     margin: auto;
     margin-top: 60px;
+}
+
+@media (max-width: 360px) {
+    .smarthphones1 {
+      width: 90%;
+    }
+}
+
+@media (min-width: 412px) {
+    .smarthphones2 {
+      width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .tela1 {
+      width: 90%;
+    }
+}
+
+@media (min-width: 1024px){
+    .tela2 {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1280px){
+    .tela3 {
+        width: 60%;
+    }
 }
 
 h2{

@@ -127,6 +127,7 @@ div#container6{
     text-align: center;
 }
 
+
 .card_redes_sociais{
     height: 250px;
     width: 250px;
@@ -185,9 +186,34 @@ div#container6{
     font-size: 16px;
 }
 
-@media (min-width: 768px) {
-    .col-md-5 .img-responsiva {
-      display: block;
-      margin: 0 auto;
+/*Media queries*/
+@media (max-width: 768px) {
+    #divA{
+        display: none; }
+
+    #divB{
+        width: 90%;
     }
   }
+
+  @media (max-width: 414px) {
+    .smarthphones1 {
+      width: 120px;
+      height: 200px;
+      margin-top: 10px;
+      text-align: center;
+    }
+}
+@media (max-width: 414px) {
+    .texto_cards_projetos {
+      font-size: 12px;
+      font-weight: bold;
+    }
+}
+
+@media (max-width: 414px) {
+    .row_cards_projetos {
+      justify-content: space-between;
+      align-content: space-between;
+    }
+}
